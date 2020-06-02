@@ -1,0 +1,80 @@
+// THEME
+$primary-color: royalblue;
+$secondary-color: black;
+$line-height: 1.3em;
+
+body {
+  color: #202124;
+  font-family: 'Georgia';
+  font-size: 12pt;
+  line-height: $line-height;
+  margin: 1in;
+}
+
+header {
+  text-align: center;
+}
+
+a {
+  color: royalblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.3em;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 1em;
+  border-bottom: 1px solid $primary-color;
+  letter-spacing: 2px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+// skills needs to be flattened over 3 columns
+section:nth-child(1) ul {
+  column-count: 3;
+}
+
+.item {
+  margin-bottom: $line-height;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+
+  .contact > * {
+    display: block;
+    text-align: left;
+  }
+
+  .links > * {
+    display: block;
+    text-align: right;
+  }
+
+}
+
+.title, .subtitle {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}

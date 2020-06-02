@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sean Lennaerts <seanlenny@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.26.7"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}

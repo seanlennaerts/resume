@@ -1,0 +1,67 @@
+[
+  {
+    "heading": "skills",
+    "children": [
+      {
+        "bullets": [
+          "TypeScript/JavaScript",
+          "HTML/CSS",
+          "Node.js",
+          "React",
+          "Git"
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "projects",
+    "children": [
+      {
+        "title": "Search Movie Quotes Webapp",
+        "link": "searchmoviequotes.com",
+        "bullets": [
+          "Continuously pushing updates to over 147,000 users around the world",
+          "Implemented custom fuzzy search to instantly search 97,447 quotes across 3 franchises",
+          "Uses virtualized lists to render thousands of quotes at a time",
+          "Handles user creation using Firebase auth",
+          "Authenticated users can contribute to the quote database (suggesting corrections and matching quotes to characters)",
+          "The front end is currently using React, built with Webpack and deployed via Netlify"
+        ]
+      },
+      {
+        "title": "SMQ Database Builder",
+        "bullets": [
+          ".srt, .xml and .vtt parser that builds the database that SearchMovieQuotes.com uses",
+          "Can fetch .xml and chunked .vtt files from Netflix and Disney+ respectively",
+          "All written in TypeScript using good OO practices and TDD (with Mocha + Chai)",
+          "Data scrubbing for text for the Hearing Impaired and leading character names",
+          "Forms complete sentences 98% of the time",
+          "This is an evolving database from user contributions via SearchMovieQuotes.com"
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "experience",
+    "children": [
+      {
+        "title": "University of British Columbia",
+        "subtitle": "Teaching Assistant, Models of Computation",
+        "bullets": [
+          "Collaborated with a team of 13 TAs to support learning in a fast-paced summer course",
+          "Presented to a group of about 20 students and provided hands-on support 6 times a week",
+          "Developed rubrics and graded assignments in a timely manner"
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "education",
+    "children": [
+      {
+        "title": "University of British Columbia",
+        "subtitle": "BSc Computer Science, Class of 2019"
+      }
+    ]
+  }
+]
