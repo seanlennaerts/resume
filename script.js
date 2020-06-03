@@ -1,10 +1,10 @@
-import contact from './contact.json';
+import contact from './contact.json'; // this way your contact info doesn't get accidentally pushed
 import content from './content.json';
 
 const root = document.querySelector('#root');
 const phoneElem = document.querySelector('#phone');
 const emailElem = document.querySelector('#email');
-phoneElem.href = `tel:+1${contact.phone}`;
+phoneElem.href = `tel:+1-${contact.phone}`;
 phoneElem.innerText = contact.phone;
 emailElem.href = `mailto:${contact.email}`;
 emailElem.innerText = contact.email;
