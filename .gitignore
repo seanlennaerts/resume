@@ -2,4 +2,4 @@
 dist/
 node_modules/
 yarn-error.log
-# contact.json
+contact.json
