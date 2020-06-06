@@ -6,8 +6,8 @@
         "bullets": [
           "TypeScript/JavaScript",
           "HTML/CSS",
+          "React 16.8+",
           "Node.js",
-          "React",
           "Git"
         ]
       }
@@ -34,7 +34,7 @@
           "Designed and implemented parsers for .srt and .vtt captions",
           "Streamlined build by fetching .xml and chunked .vtt files from Netflix and Disney+",
           "Implemented custom Node.js wrappers for FFmpeg and ImageMagick to automatically generate thumbnails",
-          "Refactored to use TypeScript using good OO practices and test-driven development with Mocha and Chai",
+          "Refactored to use TypeScript using good object-oriented practices and test-driven development with Mocha and Chai",
           "Developing data scrubbing rules for text for the hearing impaired and to form complete sentences 98% of the time"
         ]
       }
