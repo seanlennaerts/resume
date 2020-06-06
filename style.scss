@@ -1,13 +1,11 @@
 // THEME
 $primary-color: royalblue;
-// $secondary-color: black;
-$line-height: 1.3em;
 
 body {
   color: rgb(29, 29, 31);
   font-family: 'Georgia';
   font-size: 12pt;
-  line-height: $line-height;
+  line-height: 1.3em;
   margin: 1in;
 }
 
@@ -47,7 +45,7 @@ section:nth-child(1) ul {
 }
 
 .item {
-  margin-bottom: $line-height;
+  margin-bottom: 0.83em;
 }
 
 .contact-container {
