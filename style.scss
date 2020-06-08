@@ -6,7 +6,8 @@ body {
   font-family: 'Georgia';
   font-size: 12pt;
   line-height: 1.3em;
-  margin: 1in;
+  margin: 0.9in 1in;
+  // border: solid 1px red; // for debugging to see page margins
 }
 
 header {
@@ -41,7 +42,7 @@ ul {
 
 // skills needs to be flattened over 3 columns
 section:nth-child(1) ul {
-  column-count: 3;
+  // column-count: 3;
 }
 
 .item {

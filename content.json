@@ -4,11 +4,9 @@
     "children": [
       {
         "bullets": [
-          "TypeScript/JavaScript",
-          "HTML/CSS",
-          "React 16.8+",
-          "Node.js",
-          "Git"
+          "comfortable: TypeScript/JavaScript, React 16.8+, Node.js, HTML/CSS, Git",
+          "proficient: Java",
+          "prior experience: SQL, Go, Dart, Flutter, Electron, C++, C"
         ]
       }
     ]
@@ -20,11 +18,11 @@
         "title": "Search Movie Quotes",
         "link": "searchmoviequotes.com",
         "bullets": [
-          "Created and maintaining webapp with 147,000+ users around the world",
+          "Created and maintaining web app with 147,000+ users around the world",
           "Implemented custom fuzzy search to instantly filter 97,000+ quotes and support highlight indices",
           "Improved UX by rendering thousands of quotes 300x faster with virtualized lists",
           "Designed and implemented a RESTful API for user authentication and user submissions",
-          "Instrumented webapp for tracing to better understand the user experience and prioritize open issues",
+          "Instrumented web app for tracing to better understand the user experience and prioritize open issues",
           "Refactoring 30+ components to use React Hooks API for better code maintainability"
         ]
       },
