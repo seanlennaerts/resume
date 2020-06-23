@@ -18,23 +18,22 @@
         "title": "Search Movie Quotes",
         "link": "searchmoviequotes.com",
         "bullets": [
-          "Created and maintaining web app with 147,000+ users around the world",
-          "Implemented custom fuzzy search to instantly filter 97,000+ quotes and support highlight indices",
-          "Improved UX by rendering thousands of quotes 300x faster with virtualized lists",
-          "Designed and implemented a RESTful API for user authentication and user submissions",
-          "Instrumented web app for tracing to better understand the user experience and prioritize open issues",
-          "Refactoring 30+ components to use React Hooks API for better code maintainability"
+          "Created and maintain web app with 147,000+ users",
+          "Reduced main js chunk size by implementing route-based dynamic imports, leading to 90% reduction in first-meaningful-paint time",
+          "Improved UX by rendering thousands of search results up to 140 times faster with virtualized lists",
+          "Designed and implemented RESTful API with authorized endpoints and rate limiting which encouraged users to create accounts and helped prevent API abuse respectively",
+          "Improved search relevance by implementing custom fuzzy search with highlight indices",
+          "Refactored 30+ components to use React Hooks API to improve code reuse and maintainability"
         ]
       },
       {
         "title": "SMQ Database Builder",
         "bullets": [
-          "Created Node.js CLI tool to build the database for SearchMovieQuotes.com",
-          "Designed and implemented parsers for .srt and .vtt captions",
-          "Streamlined build by fetching .xml and chunked .vtt files from Netflix and Disney+",
-          "Implemented custom Node.js wrappers for FFmpeg and ImageMagick to automatically generate compressed thumbnails",
-          "Refactored to use TypeScript using good object-oriented practices and test-driven development with Mocha and Chai",
-          "Developing data scrubbing rules for text for the hearing impaired and to form complete sentences 98% of the time"
+          "Created Node.js CLI tool to parse .srt, xml, and .vtt files and build the database for SearchMovieQuotes.com",
+          "Migrated to TypeScript using good Object-Oriented practices and Test-Driven Development with Mocha and Chai",
+          "Streamlined tool by fetching .xml and chunked .vtt files from Netflix and Disney+ at runtime",
+          "Implemented custom Node.js wrappers for FFmpeg and ImageMagick to automatically generate compressed scrubbing thumbnails",
+          "Improved parser's ability to form complete sentences by developing data scrubbing rules that accommodate non-standardized video caption specifications"
         ]
       }
     ]
@@ -48,7 +47,7 @@
         "bullets": [
           "Collaborated in a team of 13 TAs to support learning in a fast-paced summer course",
           "Presented to a group of about 20 students 6 times a week",
-          "Developed script to automate testing students' RegExp and graded assignments in a timely manner"
+          "Developed a script to automate testing students' RegExp and graded assignments in a timely manner"
         ]
       }
     ]

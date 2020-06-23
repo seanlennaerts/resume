@@ -1,12 +1,13 @@
 // THEME
 $primary-color: royalblue;
+$space-height: 0.6em;
 
 body {
   color: rgb(29, 29, 31);
   font-family: 'Georgia';
   font-size: 12pt;
   line-height: 1.3em;
-  margin: 0.9in 1in;
+  margin: 0.8in 0.9in;
   // border: solid 1px red; // for debugging to see page margins
 }
 
@@ -33,6 +34,7 @@ h2 {
   font-size: 1em;
   border-bottom: 1px solid $primary-color;
   letter-spacing: 2px;
+  margin: $space-height 0;
 }
 
 ul {
@@ -46,7 +48,7 @@ section:nth-child(1) ul {
 }
 
 .item {
-  margin-bottom: 0.83em;
+  margin: $space-height 0 $space-height 0;
 }
 
 .contact-container {
