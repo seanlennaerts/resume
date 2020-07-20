@@ -5,15 +5,17 @@
 <p align="center">Highly customizable resume builder using Parcel.js<p>
 
 ## Usage
-Make sure you have parcel installed. If not `yarn global add parcel-bundler` or `npm install -g parcel-bundler`
+0. Make sure you have parcel installed. If not `yarn global add parcel-bundler` or `npm install -g parcel-bundler`
 
-First `yarn` to install dependencies and then `yarn start` to run the development server at `localhost:1234`
+1. First `yarn` to install dependencies and then `yarn start` to run the development server at `localhost:1234`
 
-When satisfied with your edits use the browser's print dialogue to Save as PDF.
+2. Optional: After editing `contact.json`, run `git update-index --skip-worktree contact.json` to tell git to ignore changes to `contact.json`.
 
-> ☝ If you're using Chrome on Windows, select Save as PDF and not Microsoft Print to PDF for better results
+3. When satisfied with your edits use the browser's print dialogue to Save as PDF.
 
-> ☝ If you find that the colors are a darker than you expect make sure `Background graphics` is checked
+    > ☝ If you're using Chrome on Windows, select Save as PDF and not Microsoft Print to PDF for better results
+
+    > ☝ If you find that the colors are a darker than you expect make sure `Background graphics` is checked
 
 ## More Information
 
